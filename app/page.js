@@ -12,7 +12,7 @@ const Home = () => {
   const [location, setLocation] = useState("");
   const [error, setError] = useState("");
 
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=fb3e47fc325d4980bee52057231808&q=${location}&days=7&aqi=no&alerts=yes
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=fb3e47fc325d4980bee52057231808&q=${location}&days=7&aqi=no&alerts=yes
    `;
 
   const handleSearch = async (e) => {
